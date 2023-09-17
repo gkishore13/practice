@@ -11,7 +11,7 @@ public class Transpose {
         int[][] transpose = new int[column][row];
         for(int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
-                transpose[j][i] = matrix[i][j];
+                transpose[j][i] = mat[i][j];
             }
         }
 
@@ -27,6 +27,4 @@ public class Transpose {
             }
             System.out.println();
         }
-    }
-}
-
+   
